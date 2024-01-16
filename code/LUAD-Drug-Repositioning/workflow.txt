@@ -1,0 +1,4 @@
+Materials and methods
+- Data collection and pre-processing
+- Target gene prediction model development and evaluation
+- Drug repositioning module
