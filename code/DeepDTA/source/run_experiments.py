@@ -13,11 +13,11 @@ os.environ['PYTHONHASHSEED'] = '0'
 np.random.seed(1)
 rn.seed(1)
 
-session_conf = tf.ConfigProto(intra_op_parallelism_threads=1, inter_op_parallelism_threads=1)
+session_conf = tf.compat.v1.ConfigProto(intra_op_parallelism_threads=1, inter_op_parallelism_threads=1)
 import keras
-from keras import backend as K
-tf.set_random_seed(0)
-sess = tf.Session(graph=tf.get_default_graph(), config=session_conf)
+from tensorflow.compat.v1.keras import backend as K
+tf.compat.v1.set_random_seed(0)
+sess = tf.compat.v1.Session(graph=tf.compat.v1.get_default_graph(), config=session_conf)
 K.set_session(sess)
 
 
@@ -33,9 +33,9 @@ from keras.models import Sequential, load_model
 from keras.layers import Dense, Dropout, Activation
 from keras.layers import Embedding
 from keras.layers import Conv1D, GlobalMaxPooling1D, MaxPooling1D
-from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization
 from keras.layers import Conv2D, GRU
-from keras.layers import Input, Embedding, LSTM, Dense, TimeDistributed, Masking, RepeatVector, merge, Flatten
+from keras.layers import Input, Embedding, LSTM, Dense, TimeDistributed, Masking, RepeatVector, Concatenate, Flatten
 from keras.models import Model
 from keras.utils import plot_model
 from keras.layers import Bidirectional
@@ -414,7 +414,7 @@ def cindex_score(y_true, y_pred):
     g = tf.cast(g == 0.0, tf.float32) * 0.5 + tf.cast(g > 0.0, tf.float32)
 
     f = tf.subtract(tf.expand_dims(y_true, -1), y_true) > 0.0
-    f = tf.matrix_band_part(tf.cast(f, tf.float32), -1, 0)
+    f = tf.compat.v1.matrix_band_part(tf.cast(f, tf.float32), -1, 0)
 
     g = tf.reduce_sum(tf.multiply(g, f))
     f = tf.reduce_sum(f)
@@ -435,7 +435,7 @@ def plotLoss(history, batchind, epochind, param3ind, foldind):
 	#plt.legend(['trainloss', 'valloss', 'cindex', 'valcindex'], loc='upper left')
     plt.legend(['trainloss', 'valloss'], loc='upper left')
     plt.savefig("figures/"+figname +".png" , dpi=None, facecolor='w', edgecolor='w', orientation='portrait', 
-                    papertype=None, format=None,transparent=False, bbox_inches=None, pad_inches=0.1,frameon=None)
+                    format=None,transparent=False, bbox_inches=None, pad_inches=0.1,frameon=None)
     plt.close()
 
 
