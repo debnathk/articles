@@ -70,7 +70,7 @@ def argparser():
   parser.add_argument(
       '--dataset_path',
       type=str,
-      default='/data/kiba/',
+      default='./data/kiba/', #code\DeepDTA\source\data\kiba, 
       help='Directory for input data.'
   )
   parser.add_argument(
