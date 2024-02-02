@@ -1,0 +1,55 @@
+Date
+Thu Feb  1 09:29:18 PM EST 2024
+WARNING: Value for scheme.platlib does not match. Please report this to <https://github.com/pypa/pip/issues/10151>
+distutils: /lustre/home/debnathk/.local/lib/python3.9/site-packages
+sysconfig: /lustre/home/debnathk/.local/lib64/python3.9/site-packages
+WARNING: Additional context:
+user = True
+home = None
+root = None
+prefix = None
+WARNING: Value for scheme.platlib does not match. Please report this to <https://github.com/pypa/pip/issues/10151>
+distutils: /lustre/home/debnathk/.local/lib/python3.9/site-packages
+sysconfig: /lustre/home/debnathk/.local/lib64/python3.9/site-packages
+WARNING: Additional context:
+user = True
+home = None
+root = None
+prefix = None
+Beginning Processing...
+Beginning to extract zip file...
+Default set to logspace (nM -> p) for easier regression
+Done!
+Drug 1: CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CC=CC=C4)N
+Target 1: MKKFFDSRREQGGSGLGSGSSGGGGSTSGLGSGYIGRVFGIGRQQVTVDEVLAEGGFAIVFLVRTSNGMKCALKRMFVNNEHDLQVCKREIQIMRDLSGHKNIVGYIDSSINNVSSGDVWEVLILMDFCRGGQVVNLMNQRLQTGFTENEVLQIFCDTCEAVARLHQCKTPIIHRDLKVENILLHDRGHYVLCDFGSATNKFQNPQTEGVNAVEDEIKKYTTLSYRAPEMVNLYSGKIITTKADIWALGCLLYKLCYFTLPFGESQVAICDGNFTIPDNSRYSQDMHCLIRYMLEPDPDKRPDIYQVSYFSFKLLKKECPIPNVQNSPIPAKLPEPVKASEAAAKKTQPKARLTDPIPTTETSIAPRQRPKAGQTQPNPGILPIQPALTPRKRATVQPPPQAAGSSNQPGLLASVPQPKPQAPPSQPLPQTQAKQPQAPPTPQQTPSTQAQGLPAQAQATPQHQQQLFLKQQQQQQQPPPAQQQPAGTFYQQQQAQTQQFQAVHPATQKPAIAQFPVVSQGGSQQQLMQNFYQQQQQQQQQQQQQQLATALHQQQLMTQQAALQQKPTMAAGQQPQPQPAAAPQPAPAQEPAIQAPVRQQPKVQTTPPPAVQGQKVGSLTPPSSPKTQRAGHRRILSDVTHSAVFGVPASKSTQLLQAAAAEASLNKSKSATTTPSGSPRTSQQNVYNPSEGSTWNPFDDDNFSKLTAEELLNKDFAKLGEGKHPEKLGGSAESLIPGFQSTQGDAFATTSFSAGTAEKRKGGQTVDSGLPLLSVSDPFIPLQVPDAPEKLIEGLKSPDTSLLLPDLLPMTDPFGSTSDAVIEKADVAVESLIPGLEPPVPQRLPSQTESVTSNRTDSLTGEDSLLDCSLLSNPTTDLLEEFAPTAISAPVHKAAEDSNLISGFDVPEGSDKVAEDEFDPIPVLITKNPQGGHSRNSSGSSESSLPNLARSLLLVDQLIDL
+Score 1: 7.366531544420414
+Drug Target Interaction Prediction Mode...
+in total: 30056 drug-target pairs
+encoding drug...
+unique drugs: 68
+encoding protein...
+unique target sequence: 379
+splitting dataset...
+Done.
+Let's use 2 GPUs!
+--- Data Preparation ---
+--- Go for Training ---
+Training at Epoch 1 iteration 0 with loss 31.2948. Total time 0.00027 hours
+Training at Epoch 1 iteration 100 with loss 0.83116. Total time 0.00583 hours
+Validation at Epoch 1 with loss:0.98526, MSE: 0.78606 , Pearson Correlation: 0.25712 with p-value: 1.36E-46 , Concordance Index: 0.62756
+Training at Epoch 2 iteration 0 with loss 0.94118. Total time 0.01083 hours
+Training at Epoch 2 iteration 100 with loss 0.47226. Total time 0.01638 hours
+Validation at Epoch 2 with loss:0.45492, MSE: 0.72070 , Pearson Correlation: 0.35706 with p-value: 4.39E-91 , Concordance Index: 0.68110
+Training at Epoch 3 iteration 0 with loss 0.83342. Total time 0.02111 hours
+Training at Epoch 3 iteration 100 with loss 0.77280. Total time 0.02666 hours
+Validation at Epoch 3 with loss:0.74957, MSE: 0.74935 , Pearson Correlation: 0.37589 with p-value: 1.67E-101 , Concordance Index: 0.70037
+Training at Epoch 4 iteration 0 with loss 0.58932. Total time 0.03138 hours
+Training at Epoch 4 iteration 100 with loss 0.75510. Total time 0.03694 hours
+Validation at Epoch 4 with loss:0.84027, MSE: 0.68933 , Pearson Correlation: 0.41266 with p-value: 5.89E-124 , Concordance Index: 0.72377
+Training at Epoch 5 iteration 0 with loss 1.17322. Total time 0.04166 hours
+Training at Epoch 5 iteration 100 with loss 0.85016. Total time 0.04722 hours
+Validation at Epoch 5 with loss:0.84696, MSE: 0.73372 , Pearson Correlation: 0.41543 with p-value: 9.14E-126 , Concordance Index: 0.72445
+--- Go for Testing ---
+Testing MSE: 0.7018637782071472 , Pearson Correlation: 0.3872460478581301 with p-value: 2.66E-214 , Concordance Index: 0.7114713560123681
+--- Training Finished ---
+Elapsed time: 220 seconds

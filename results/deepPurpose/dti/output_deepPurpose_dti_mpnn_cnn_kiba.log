@@ -1,0 +1,63 @@
+Date
+Thu Feb  1 08:37:41 PM EST 2024
+Beginning Processing...
+Beginning to extract zip file...
+Done!
+Drug 1: COC1=C(C=C2C(=C1)CCN=C2C3=CC(=C(C=C3)Cl)Cl)Cl
+Target 1: MTVKTEAAKGTLTYSRMRGMVAILIAFMKQRRMGLNDFIQKIANNSYACKHPEVQSILKISQPQEPELMNANPSPPPSPSQQINLGPSSNPHAKPSDFHFLKVIGKGSFGKVLLARHKAEEVFYAVKVLQKKAILKKKEEKHIMSERNVLLKNVKHPFLVGLHFSFQTADKLYFVLDYINGGELFYHLQRERCFLEPRARFYAAEIASALGYLHSLNIVYRDLKPENILLDSQGHIVLTDFGLCKENIEHNSTTSTFCGTPEYLAPEVLHKQPYDRTVDWWCLGAVLYEMLYGLPPFYSRNTAEMYDNILNKPLQLKPNITNSARHLLEGLLQKDRTKRLGAKDDFMEIKSHVFFSLINWDDLINKKITPPFNPNVSGPNDLRHFDPEFTEEPVPNSIGKSPDSVLVTASVKEAAEAFLGFSYAPPTDSFL
+Score 1: 11.1
+Drug Target Interaction Prediction Mode...
+in total: 118254 drug-target pairs
+encoding drug...
+unique drugs: 2068
+encoding protein...
+unique target sequence: 229
+splitting dataset...
+Done.
+Let's use 1 GPU!
+--- Data Preparation ---
+--- Go for Training ---
+Training at Epoch 1 iteration 0 with loss 136.731. Total time 0.0 hours
+Training at Epoch 1 iteration 100 with loss 1.25956. Total time 0.00527 hours
+Training at Epoch 1 iteration 200 with loss 0.81929. Total time 0.01027 hours
+Training at Epoch 1 iteration 300 with loss 0.67281. Total time 0.01555 hours
+Training at Epoch 1 iteration 400 with loss 1.31462. Total time 0.02083 hours
+Training at Epoch 1 iteration 500 with loss 0.85368. Total time 0.02583 hours
+Training at Epoch 1 iteration 600 with loss 0.94948. Total time 0.03111 hours
+Validation at Epoch 1 with loss:0.56228, MSE: 0.62670 , Pearson Correlation: 0.33292 with p-value: 5.42E-304 , Concordance Index: 0.66465
+Training at Epoch 2 iteration 0 with loss 0.91972. Total time 0.03805 hours
+Training at Epoch 2 iteration 100 with loss 0.89910. Total time 0.04333 hours
+Training at Epoch 2 iteration 200 with loss 0.66709. Total time 0.04833 hours
+Training at Epoch 2 iteration 300 with loss 0.69486. Total time 0.05361 hours
+Training at Epoch 2 iteration 400 with loss 0.82055. Total time 0.05861 hours
+Training at Epoch 2 iteration 500 with loss 0.80208. Total time 0.06388 hours
+Training at Epoch 2 iteration 600 with loss 1.43995. Total time 0.06916 hours
+Validation at Epoch 2 with loss:0.67682, MSE: 0.89061 , Pearson Correlation: 0.34836 with p-value: 0.00E+00 , Concordance Index: 0.67106
+Training at Epoch 3 iteration 0 with loss 0.84430. Total time 0.07611 hours
+Training at Epoch 3 iteration 100 with loss 1.04156. Total time 0.08111 hours
+Training at Epoch 3 iteration 200 with loss 0.78559. Total time 0.08638 hours
+Training at Epoch 3 iteration 300 with loss 0.57884. Total time 0.09166 hours
+Training at Epoch 3 iteration 400 with loss 0.78148. Total time 0.09666 hours
+Training at Epoch 3 iteration 500 with loss 0.74685. Total time 0.10194 hours
+Training at Epoch 3 iteration 600 with loss 1.00331. Total time 0.10694 hours
+Validation at Epoch 3 with loss:0.75632, MSE: 0.61112 , Pearson Correlation: 0.36475 with p-value: 0.00E+00 , Concordance Index: 0.67693
+Training at Epoch 4 iteration 0 with loss 0.53176. Total time 0.11416 hours
+Training at Epoch 4 iteration 100 with loss 0.73709. Total time 0.11916 hours
+Training at Epoch 4 iteration 200 with loss 0.97997. Total time 0.12444 hours
+Training at Epoch 4 iteration 300 with loss 0.72405. Total time 0.12944 hours
+Training at Epoch 4 iteration 400 with loss 1.20419. Total time 0.13472 hours
+Training at Epoch 4 iteration 500 with loss 0.69418. Total time 0.14 hours
+Training at Epoch 4 iteration 600 with loss 0.89254. Total time 0.145 hours
+Validation at Epoch 4 with loss:0.47904, MSE: 0.64257 , Pearson Correlation: 0.36472 with p-value: 0.00E+00 , Concordance Index: 0.67443
+Training at Epoch 5 iteration 0 with loss 0.93936. Total time 0.15194 hours
+Training at Epoch 5 iteration 100 with loss 0.87913. Total time 0.15722 hours
+Training at Epoch 5 iteration 200 with loss 0.59819. Total time 0.1625 hours
+Training at Epoch 5 iteration 300 with loss 0.96321. Total time 0.1675 hours
+Training at Epoch 5 iteration 400 with loss 1.09684. Total time 0.17277 hours
+Training at Epoch 5 iteration 500 with loss 0.73199. Total time 0.17805 hours
+Training at Epoch 5 iteration 600 with loss 0.80143. Total time 0.18305 hours
+Validation at Epoch 5 with loss:0.59032, MSE: 0.61606 , Pearson Correlation: 0.36132 with p-value: 0.00E+00 , Concordance Index: 0.67335
+--- Go for Testing ---
+Testing MSE: 0.6159053687000687 , Pearson Correlation: 0.3633885578664228 with p-value: 0.00E+00 , Concordance Index: 0.6758121932943776
+--- Training Finished ---
+Elapsed time: 737 seconds
