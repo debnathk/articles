@@ -1,0 +1,6 @@
+Date
+Wed 06 Mar 2024 04:58:04 PM EST
+Loading training data..
+Full validation stats: loss= 0.11105 acc = 0.97006 roc = 0.50000 aupr= 0.51497
+Full test stats: loss= 0.11074 acc = 0.97674 roc = 0.50000 aupr= 0.51163
+Elapsed time: 4 seconds
