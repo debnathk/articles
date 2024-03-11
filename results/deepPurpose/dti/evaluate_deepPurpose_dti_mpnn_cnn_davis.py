@@ -26,7 +26,7 @@ train.head(1)
 config = utils.generate_config(drug_encoding = drug_encoding,
                          target_encoding = target_encoding,
                          cls_hidden_dims = [1024,1024,512],
-                         train_epoch = 100,
+                         train_epoch = 50,
                          LR = 0.001,
                          batch_size = 128,
                          hidden_dim_drug = 128,
@@ -87,5 +87,5 @@ print(f'Pearson Correlation Coefficient: {pcc}')
 ci = concordance_index(y_true, y_pred)
 print(f'Concordance Index: {ci}')
 
-y_true.to_csv('y_true.csv', index=False, header=None)
-y_pred.to_csv('y_pred.csv', index=False, header=None)
+list(y_true).to_csv('y_true.csv', index=False, header=None)
+list(y_pred).to_csv('y_pred.csv', index=False, header=None)

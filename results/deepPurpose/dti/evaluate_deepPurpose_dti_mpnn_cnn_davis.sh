@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=evaluate_deepPurpose
-#SBATCH --output evaluate_deepPurpose_dti_mpnn_cnn_davis.log
+#SBATCH --output evaluate_deepPurpose_dti_mpnn_cnn_davis_50epoch.log
 #SBATCH --error error_evaluate_deepPurpose_dti_mpnn_cnn_davis.log
 #SBATCH --partition gpu
 #SBATCH --mem=64G      
