@@ -46,7 +46,7 @@ model.train(train, val, test)
 # Load dataset
 import pandas as pd
 
-test_data = pd.read_csv('../../../cancer_datasets/breast_cancer/test.csv')
+test_data = pd.read_csv('../../../cancer_datasets/breast_cancer/test_new.csv')
 test_data
 
 # Predict
@@ -87,5 +87,5 @@ print(f'Pearson Correlation Coefficient: {pcc}')
 ci = concordance_index(y_true, y_pred)
 print(f'Concordance Index: {ci}')
 
-list(y_true).to_csv('y_true.csv', index=False, header=None)
-list(y_pred).to_csv('y_pred.csv', index=False, header=None)
+pd.DataFrame(y_true).to_csv('y_true.csv', index=False, header=None)
+pd.DataFrame(y_pred).to_csv('y_pred.csv', index=False, header=None)
