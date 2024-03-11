@@ -1,2 +1,89 @@
 Date
 Sun 10 Mar 2024 07:44:30 PM EDT
+Beginning Processing...
+Beginning to extract zip file...
+Default set to logspace (nM -> p) for easier regression
+Done!
+Drug 1: CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CC=CC=C4)N
+Target 1: MKKFFDSRREQGGSGLGSGSSGGGGSTSGLGSGYIGRVFGIGRQQVTVDEVLAEGGFAIVFLVRTSNGMKCALKRMFVNNEHDLQVCKREIQIMRDLSGHKNIVGYIDSSINNVSSGDVWEVLILMDFCRGGQVVNLMNQRLQTGFTENEVLQIFCDTCEAVARLHQCKTPIIHRDLKVENILLHDRGHYVLCDFGSATNKFQNPQTEGVNAVEDEIKKYTTLSYRAPEMVNLYSGKIITTKADIWALGCLLYKLCYFTLPFGESQVAICDGNFTIPDNSRYSQDMHCLIRYMLEPDPDKRPDIYQVSYFSFKLLKKECPIPNVQNSPIPAKLPEPVKASEAAAKKTQPKARLTDPIPTTETSIAPRQRPKAGQTQPNPGILPIQPALTPRKRATVQPPPQAAGSSNQPGLLASVPQPKPQAPPSQPLPQTQAKQPQAPPTPQQTPSTQAQGLPAQAQATPQHQQQLFLKQQQQQQQPPPAQQQPAGTFYQQQQAQTQQFQAVHPATQKPAIAQFPVVSQGGSQQQLMQNFYQQQQQQQQQQQQQQLATALHQQQLMTQQAALQQKPTMAAGQQPQPQPAAAPQPAPAQEPAIQAPVRQQPKVQTTPPPAVQGQKVGSLTPPSSPKTQRAGHRRILSDVTHSAVFGVPASKSTQLLQAAAAEASLNKSKSATTTPSGSPRTSQQNVYNPSEGSTWNPFDDDNFSKLTAEELLNKDFAKLGEGKHPEKLGGSAESLIPGFQSTQGDAFATTSFSAGTAEKRKGGQTVDSGLPLLSVSDPFIPLQVPDAPEKLIEGLKSPDTSLLLPDLLPMTDPFGSTSDAVIEKADVAVESLIPGLEPPVPQRLPSQTESVTSNRTDSLTGEDSLLDCSLLSNPTTDLLEEFAPTAISAPVHKAAEDSNLISGFDVPEGSDKVAEDEFDPIPVLITKNPQGGHSRNSSGSSESSLPNLARSLLLVDQLIDL
+Score 1: 7.366531544420414
+Drug Target Interaction Prediction Mode...
+in total: 30056 drug-target pairs
+encoding drug...
+unique drugs: 68
+encoding protein...
+unique target sequence: 379
+splitting dataset...
+Done.
+Let's use 1 GPU!
+--- Data Preparation ---
+--- Go for Training ---
+Training at Epoch 1 iteration 0 with loss 31.2987. Total time 0.0 hours
+Training at Epoch 1 iteration 100 with loss 0.81720. Total time 0.00555 hours
+Validation at Epoch 1 with loss:1.00437, MSE: 0.77046 , Pearson Correlation: 0.26261 with p-value: 1.35E-48 , Concordance Index: 0.63580
+Training at Epoch 2 iteration 0 with loss 0.96562. Total time 0.01 hours
+Training at Epoch 2 iteration 100 with loss 0.49683. Total time 0.01527 hours
+Validation at Epoch 2 with loss:0.43417, MSE: 0.71599 , Pearson Correlation: 0.35715 with p-value: 3.90E-91 , Concordance Index: 0.68144
+Training at Epoch 3 iteration 0 with loss 0.76596. Total time 0.02 hours
+Training at Epoch 3 iteration 100 with loss 0.65609. Total time 0.02527 hours
+Validation at Epoch 3 with loss:0.77762, MSE: 0.77205 , Pearson Correlation: 0.37391 with p-value: 2.22E-100 , Concordance Index: 0.69984
+Training at Epoch 4 iteration 0 with loss 0.56127. Total time 0.03 hours
+Training at Epoch 4 iteration 100 with loss 0.73737. Total time 0.03527 hours
+Validation at Epoch 4 with loss:0.83945, MSE: 0.68827 , Pearson Correlation: 0.40583 with p-value: 1.44E-119 , Concordance Index: 0.72094
+Training at Epoch 5 iteration 0 with loss 1.11931. Total time 0.04 hours
+Training at Epoch 5 iteration 100 with loss 0.87324. Total time 0.04527 hours
+Validation at Epoch 5 with loss:0.84440, MSE: 0.73859 , Pearson Correlation: 0.41756 with p-value: 3.65E-127 , Concordance Index: 0.73010
+Training at Epoch 6 iteration 0 with loss 0.71620. Total time 0.05 hours
+Training at Epoch 6 iteration 100 with loss 0.71960. Total time 0.05527 hours
+Validation at Epoch 6 with loss:0.40990, MSE: 0.77366 , Pearson Correlation: 0.42302 with p-value: 8.30E-131 , Concordance Index: 0.72974
+Training at Epoch 7 iteration 0 with loss 1.31204. Total time 0.06 hours
+Training at Epoch 7 iteration 100 with loss 0.81203. Total time 0.06527 hours
+Validation at Epoch 7 with loss:0.80262, MSE: 0.95177 , Pearson Correlation: 0.42902 with p-value: 6.86E-135 , Concordance Index: 0.72907
+Training at Epoch 8 iteration 0 with loss 1.12421. Total time 0.06972 hours
+Training at Epoch 8 iteration 100 with loss 0.46358. Total time 0.075 hours
+Validation at Epoch 8 with loss:0.93988, MSE: 0.66818 , Pearson Correlation: 0.43834 with p-value: 2.17E-141 , Concordance Index: 0.73647
+Training at Epoch 9 iteration 0 with loss 0.59725. Total time 0.07972 hours
+Training at Epoch 9 iteration 100 with loss 0.63018. Total time 0.085 hours
+Validation at Epoch 9 with loss:1.32802, MSE: 0.91399 , Pearson Correlation: 0.43644 with p-value: 4.75E-140 , Concordance Index: 0.73686
+Training at Epoch 10 iteration 0 with loss 0.91032. Total time 0.08944 hours
+Training at Epoch 10 iteration 100 with loss 1.18667. Total time 0.095 hours
+Validation at Epoch 10 with loss:0.63454, MSE: 0.65557 , Pearson Correlation: 0.44618 with p-value: 5.05E-147 , Concordance Index: 0.73991
+Training at Epoch 11 iteration 0 with loss 0.53105. Total time 0.09944 hours
+Training at Epoch 11 iteration 100 with loss 0.72914. Total time 0.10472 hours
+Validation at Epoch 11 with loss:0.78615, MSE: 0.91140 , Pearson Correlation: 0.44987 with p-value: 9.96E-150 , Concordance Index: 0.73408
+Training at Epoch 12 iteration 0 with loss 0.85798. Total time 0.10944 hours
+Training at Epoch 12 iteration 100 with loss 0.74888. Total time 0.11472 hours
+Validation at Epoch 12 with loss:0.57177, MSE: 0.65438 , Pearson Correlation: 0.45166 with p-value: 4.78E-151 , Concordance Index: 0.74178
+Training at Epoch 13 iteration 0 with loss 0.55439. Total time 0.11944 hours
+Training at Epoch 13 iteration 100 with loss 0.69645. Total time 0.12472 hours
+Validation at Epoch 13 with loss:0.63342, MSE: 0.68591 , Pearson Correlation: 0.45194 with p-value: 2.97E-151 , Concordance Index: 0.73999
+Training at Epoch 14 iteration 0 with loss 0.78648. Total time 0.12916 hours
+Training at Epoch 14 iteration 100 with loss 0.73115. Total time 0.13472 hours
+Validation at Epoch 14 with loss:0.57247, MSE: 0.67618 , Pearson Correlation: 0.45894 with p-value: 1.64E-156 , Concordance Index: 0.74314
+Training at Epoch 15 iteration 0 with loss 0.54686. Total time 0.13916 hours
+Training at Epoch 15 iteration 100 with loss 0.65685. Total time 0.14444 hours
+Validation at Epoch 15 with loss:0.59381, MSE: 0.65825 , Pearson Correlation: 0.46362 with p-value: 4.33E-160 , Concordance Index: 0.74744
+Training at Epoch 16 iteration 0 with loss 0.54056. Total time 0.14916 hours
+Training at Epoch 16 iteration 100 with loss 0.63352. Total time 0.15444 hours
+Validation at Epoch 16 with loss:0.99770, MSE: 0.71686 , Pearson Correlation: 0.47457 with p-value: 1.08E-168 , Concordance Index: 0.74816
+Training at Epoch 17 iteration 0 with loss 0.63567. Total time 0.15916 hours
+Training at Epoch 17 iteration 100 with loss 0.70550. Total time 0.16444 hours
+Validation at Epoch 17 with loss:0.58491, MSE: 0.63304 , Pearson Correlation: 0.48353 with p-value: 5.73E-176 , Concordance Index: 0.75098
+Training at Epoch 18 iteration 0 with loss 0.76282. Total time 0.16916 hours
+Training at Epoch 18 iteration 100 with loss 0.91573. Total time 0.17444 hours
+Validation at Epoch 18 with loss:1.13368, MSE: 0.67364 , Pearson Correlation: 0.48356 with p-value: 5.41E-176 , Concordance Index: 0.74740
+Training at Epoch 19 iteration 0 with loss 0.64030. Total time 0.17916 hours
+Training at Epoch 19 iteration 100 with loss 0.59495. Total time 0.18444 hours
+Validation at Epoch 19 with loss:0.41748, MSE: 0.64691 , Pearson Correlation: 0.51449 with p-value: 7.46E-203 , Concordance Index: 0.75391
+Training at Epoch 20 iteration 0 with loss 0.68252. Total time 0.18916 hours
+Training at Epoch 20 iteration 100 with loss 0.64413. Total time 0.19444 hours
+Validation at Epoch 20 with loss:0.61839, MSE: 0.63173 , Pearson Correlation: 0.52728 with p-value: 8.63E-215 , Concordance Index: 0.75126
+Training at Epoch 21 iteration 0 with loss 0.56748. Total time 0.19916 hours
+Training at Epoch 21 iteration 100 with loss 0.45559. Total time 0.20444 hours
+Validation at Epoch 21 with loss:0.47365, MSE: 0.57148 , Pearson Correlation: 0.54668 with p-value: 6.66E-234 , Concordance Index: 0.76425
+Training at Epoch 22 iteration 0 with loss 0.54064. Total time 0.20916 hours
+Training at Epoch 22 iteration 100 with loss 0.61887. Total time 0.21444 hours
+Validation at Epoch 22 with loss:0.50879, MSE: 0.59740 , Pearson Correlation: 0.55436 with p-value: 7.90E-242 , Concordance Index: 0.76416
+Training at Epoch 23 iteration 0 with loss 0.64107. Total time 0.21888 hours
+Training at Epoch 23 iteration 100 with loss 0.67418. Total time 0.22416 hours
+Validation at Epoch 23 with loss:0.74956, MSE: 0.57092 , Pearson Correlation: 0.56461 with p-value: 9.89E-253 , Concordance Index: 0.76793
