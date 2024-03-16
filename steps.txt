@@ -1,0 +1,3 @@
+DeepPurpose:
+    - Prepare the Kd parameter dataset from ChEMBL, Convert Kd values to Log values (refer DeepPurpose method to convert to log - create a function basically)
+    - Test for both MPNN-CNN, CNN-CNN
